@@ -19,3 +19,4 @@ C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\University Clinic Hospi
 C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\University Clinic Hospital\obj\Debug\netcoreapp2.1\University Clinic Hospital.AssemblyInfo.cs
 C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\University Clinic Hospital\obj\Debug\netcoreapp2.1\University Clinic Hospital.dll
 C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\University Clinic Hospital\obj\Debug\netcoreapp2.1\University Clinic Hospital.pdb
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\University Clinic Hospital\obj\Debug\netcoreapp2.1\University Clinic Hospital.csprojAssemblyReference.cache

@@ -15,8 +15,9 @@ namespace University_Clinic_Hospital
                 Console.WriteLine("\n\t\t PLEASE  SELECT FROM THE OPTIONS BELOW \n");
                 Console.WriteLine("\t\tPress 1 VIEW EMPLOYEES");
                 Console.WriteLine("\t\tPress 2 to view Patients");
-                Console.WriteLine("\t\tPress 3 to Treat Patients! ");
-                
+                Console.WriteLine("\t\tPress 3 to view Employees Current infor");
+                Console.WriteLine("\t\tPress 4 to Treat Patients! ");
+                Console.WriteLine("\t\tPress 5 to pay every employees! ");
                 Console.WriteLine("\t\tPress 0 to quit");
                 bool running = true;
 
@@ -34,7 +35,7 @@ namespace University_Clinic_Hospital
                             clinic.Print_Patients();
                             break;
                         case "3": // Treat Patient!!!!
-                            clinic.Treat_Patients();
+                            clinic.Print_current_info();
                             break;
                         case "4":  //  Select Emp infor with name!
                             clinic.Print_all_Employee();
@@ -43,10 +44,13 @@ namespace University_Clinic_Hospital
                              
                             break;
                         case "5": //
-
+                            clinic.Pay_everyone();
                             break;
                         case "6"://
-
+                            clinic.Print_Patients();
+                            Console.WriteLine("Type id TO pick patient");
+                            int ID = Convert.ToInt32(Console.ReadLine());
+                            clinic.Treat_Patients(clinic.Patients[ID]);
                             break;
                         case "7": //
 

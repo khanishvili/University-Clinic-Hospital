@@ -33,11 +33,12 @@ namespace University_Clinic_Hospital
         {
 
 
-            Console.WriteLine("\t\t\t|ID|     |Name|        |Salary|    |Ispaid|    POSITION |");
+            Console.WriteLine("\t\t\t|ID|     |Name|        |Salary|    |Ispaid|    POSITION | ");
             for (int i = 0; i < Employees.Count; i++)
             {
                 //Console.WriteLine($"\t\t {Employee[i].Name}  {Employee[i].ID} {Employee[i].Ispaid} ");
-                Console.WriteLine("\t\t\t {0}     {1}     {2}    {3}     {4}",
+                Console.WriteLine("\t\t\t {0}     {1}     {2}    {3}     {4}     {5}",
+                i.ToString().PadRight(2),
                 Employees[i].ID.ToString().PadRight(2),
                 Employees[i].Name.PadRight(10),
                 Employees[i].Salary.ToString().PadRight(7),
@@ -93,11 +94,12 @@ namespace University_Clinic_Hospital
         }
         public void Print_Patients()
         {
-            Console.WriteLine("\t\t\t|ID|   |Name| |HEALTH_LEVEL| |BLOO_LEVEL|");
+            Console.WriteLine("\t\t\t|ID|      Patient id     |Name| |HEALTH_LEVEL| |BLOO_LEVEL|");
             for (int i = 0; i < Patients.Count; i++)
             {
 
-                Console.WriteLine("\t\t\t {0}     {1}     {2}    {3}",
+                Console.WriteLine("\t\t\t {0}     {1}     {2}    {3}    {4}",
+                i.ToString().PadRight(2),
                 Patients[i].Patiend_id.ToString().PadRight(2),
                 Patients[i].Name.PadRight(8),
                 Patients[i].HEALTH_LEVEL.ToString().PadRight(7),
@@ -113,10 +115,39 @@ namespace University_Clinic_Hospital
                 Employees[i].Info();
             }
         }
-        public void Treat_Patients()
+        public void Treat_Patients(Patient pat)
         {
- 
+            
+            Console.WriteLine($"you succesfully picked Patient {pat.Name}");
+            Print_all_Employee();
+
+            Console.Write($"Please select Med ");
+
+            int MED_ID = Convert.ToInt32(Console.ReadLine());
+                Employee empl= Employees[MED_ID];
+            if (empl.GetType() == typeof(Doctor))
+            {
+                Doctor bill = empl as Doctor;
+                bill.Draw_Blood(pat);
+                bill.TakingCareofPatient(pat);
+                Console.WriteLine($"{pat.Name} Increased ");
+            }
+            else if(empl.GetType() == typeof(Nurse))
+            {
+                Nurse nurs = empl as Nurse;
+                nurs.TakingCareofPatient(pat);
+                nurs.Draw_Blood(pat);
+                Console.WriteLine($"{pat.Name} Increased BLOOD LEVEL AND HEALTH TOOOO GOOD JOBB! ");
+            }
+            else { Console.WriteLine("Employee with this id is not qualified to treat patients please try again! or go to sleep!!"); }
         }
-         
+        public void Pay_everyone()
+        {
+            for(int i = 0; i < Employees.Count; i++)
+            {
+                Employees[i].PaySalary();
+            }
+            Console.WriteLine("Thank u most of our employees got paid!");
+        }
       }
 }

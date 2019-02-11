@@ -42,10 +42,12 @@ namespace University_Clinic_Hospital
             if (Ispaid == false)
             {
                 Ispaid = true;
+                Console.WriteLine($"{Name} Just got paid!!");
+
             }
             else
             {
-                Console.WriteLine($"{Name} Has been Paid!!!");
+                Console.WriteLine($"{Name} We dont pay 5 time per month!!!!!! This is a Clinic not a Bank");
             }
             
         }
