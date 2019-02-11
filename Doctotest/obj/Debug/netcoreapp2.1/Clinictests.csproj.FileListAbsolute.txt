@@ -1,0 +1,17 @@
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.csprojAssemblyReference.cache
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.csproj.CoreCompileInputs.cache
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.AssemblyInfoInputs.cache
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.AssemblyInfo.cs
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\Clinictests.deps.json
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\Clinictests.runtimeconfig.json
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\Clinictests.runtimeconfig.dev.json
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\Clinictests.dll
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\Clinictests.pdb
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\University Clinic Hospital.dll
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\bin\Debug\netcoreapp2.1\University Clinic Hospital.pdb
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.csproj.CopyComplete
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.dll
+C:\Users\khani\Desktop\Clinic\University-Clinic-Hospital\Doctotest\obj\Debug\netcoreapp2.1\Clinictests.pdb
