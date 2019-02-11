@@ -18,6 +18,7 @@ namespace University_Clinic_Hospital
                 Console.WriteLine("\t\tPress 3 to view Employees Current infor");
                 Console.WriteLine("\t\tPress 4 to Treat Patients! ");
                 Console.WriteLine("\t\tPress 5 to pay every employees! ");
+                Console.WriteLine("\t\tPress 6  to trat patient! ");
                 Console.WriteLine("\t\tPress 0 to quit");
                 bool running = true;
 
