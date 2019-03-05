@@ -29,34 +29,32 @@ namespace University_Clinic_Hospital
                     
                     switch (userInput)
                     {
-                        case "1"://EMPL
+                        case "1": 
                             clinic.Print_all_Employee();
                             break;
-                        case "2"://View patients
+                        case "2": 
                             clinic.Print_Patients();
                             break;
-                        case "3": // Treat Patient!!!!
+                        case "3":  
                             clinic.Print_current_info();
                             break;
-                        case "4":  //  Select Emp infor with name!
+                        case "4":  
                             clinic.Print_all_Employee();
                             clinic.Search_empl_info();
                             string name = Console.ReadLine();
                              
                             break;
-                        case "5": //
+                        case "5": 
                             clinic.Pay_everyone();
                             break;
-                        case "6"://
+                        case "6": 
                             clinic.Print_Patients();
                             Console.WriteLine("Type id TO pick patient");
                             int ID = Convert.ToInt32(Console.ReadLine());
                             clinic.Treat_Patients(clinic.Patients[ID]);
                             break;
-                        case "7": //
-
-                            break;
-                        case "0"://Close the program
+ 
+                        case "0": 
                             Environment.Exit(0);
                             break;
                         default:

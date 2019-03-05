@@ -7,7 +7,7 @@ namespace University_Clinic_Hospital
    public  class Doctor:Employee
     {
 
-        public string Speciality { get; private set; }//HEAD FOOT HEART KIDNEY
+        public string Speciality { get; private set; } 
         public Doctor(int emp_id, string name,bool paid,string speciality) : base(emp_id,name,paid)
         {
             Speciality = speciality;

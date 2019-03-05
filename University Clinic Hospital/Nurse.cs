@@ -21,13 +21,10 @@ namespace University_Clinic_Hospital
         }
         public override void Info()
         {
-            //Console.WriteLine($"NUrse  {Name}'s ID is {ID}  and makes  {Salary} per year! " +
-            //                  $" Current pay status is  {PayStatus().ToString()} ," +
-            //                  $" and  {Name} takes care of {Patients} petient");
              
             Console.WriteLine($"\n\t Nurse  {Name} {PayStatus().ToString()}  and takes care of {Patients} patients ");
 
-        } //PERSONAL INFO
+        }  
         public void Draw_Blood(Patient temp)
         {
             temp.BLOO_LEVEL +=10;

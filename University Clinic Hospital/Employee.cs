@@ -13,8 +13,8 @@ namespace University_Clinic_Hospital
 
         public  decimal Salary { get; set; }
         public bool Ispaid { get; private set; } 
-        //
-        public Employee(int emp_id, string name,bool paidstatus) // “Phil”, 111, 90000, false
+       
+        public Employee(int emp_id, string name,bool paidstatus)  
         {
             ID = emp_id;
             Name = name;
@@ -22,7 +22,7 @@ namespace University_Clinic_Hospital
             Ispaid = paidstatus;
         }
 
-        public abstract void Info(); //“Phil”, 111, 90000, false
+        public abstract void Info(); 
 
         // Actions
         public virtual string PayStatus()
@@ -52,9 +52,6 @@ namespace University_Clinic_Hospital
             
         }
 
-        //Doctor   90,000
-        //Nurse   50,000
-        //Receptionist  45,000
-        //Janitor 40,000
+    
     }
 }
