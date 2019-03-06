@@ -5880,11 +5880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khani\\Desktop\\Class Projects\\push\\Doctotest\\Clinictests.csproj",
+      "projectUniqueName": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\Doctotest\\Clinictests.csproj",
       "projectName": "Clinictests",
-      "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\push\\Doctotest\\Clinictests.csproj",
+      "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\Doctotest\\Clinictests.csproj",
       "packagesPath": "C:\\Users\\khani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khani\\Desktop\\Class Projects\\push\\Doctotest\\obj\\",
+      "outputPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\Doctotest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5903,8 +5903,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\khani\\Desktop\\Class Projects\\push\\University Clinic Hospital\\University Clinic Hospital.csproj": {
-              "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\push\\University Clinic Hospital\\University Clinic Hospital.csproj"
+            "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj": {
+              "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj"
             }
           }
         }
