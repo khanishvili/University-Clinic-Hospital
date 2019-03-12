@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj",
+      "projectUniqueName": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj",
       "projectName": "University Clinic Hospital",
-      "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj",
+      "projectPath": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj",
       "packagesPath": "C:\\Users\\khani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\obj\\",
+      "outputPath": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\University Clinic Hospital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

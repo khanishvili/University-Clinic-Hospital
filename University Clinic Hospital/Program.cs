@@ -49,7 +49,7 @@ namespace University_Clinic_Hospital
                             break;
                         case "6": 
                             clinic.Print_Patients();
-                            Console.WriteLine("Type id TO pick patient");
+                            Console.WriteLine("Type Id number  To pick patient");
                             int ID = Convert.ToInt32(Console.ReadLine());
                             clinic.Treat_Patients(clinic.Patients[ID]);
                             break;

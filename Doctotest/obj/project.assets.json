@@ -1727,7 +1727,7 @@
       ]
     },
     "Microsoft.CSharp/4.0.1": {
-      "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
+      "sha512": "z/WP8s9Qam0krLSaAmAx+CxyLEWH+o/w+75z4U5bIt3jhWSkfYNwTjbjqba/jNiMCdJXuTLK8FemyaS0IAPBqg==",
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
@@ -3478,7 +3478,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.11": {
-      "sha512": "db34f6LHYM0U0JpE+sOmjar27BnqTVkbLJhgfwMpTdgTigG/Hna3m2MYVwnFzGGKnEJk2UXFuoVTr8WUbU91/A==",
+      "sha512": "zpJyF7pYM9hxdcqeDaPGLCSgQ19bSIC5JCmCq7QP72aEhba37gSZ+ge5hqpfUpSRZx68zG/5gyRxNO1Q6jSCOw==",
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
@@ -4875,12 +4875,11 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "+mqQrrJsDx5yxIq+wLYKHr6pVc08ETOzJFwE3QvWmEwM4CU5RNKGdqu47bk+HGScaT58ZCVFmjwpp0OBUxy1QA==",
+      "sha512": "ARj+OC5yQYTPQWtCaewWIDjOUNzAeVmGiY3Q5jRrA/63k/NJ88eaLJ6+lKxz9BtBpk/04JjVrbGu2pVOtfoDXg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5535,7 +5534,7 @@
       ]
     },
     "System.Xml.XmlDocument/4.0.1": {
-      "sha512": "2eZu6IP+etFVBBFUFzw2w6J21DqIN5eL9Y8r8JfJWUmV28Z5P0SNU01oCisVHQgHsDhHPnmq2s1hJrJCFZWloQ==",
+      "sha512": "2kVE87ovwJRD8nwFU0zi9H9g2ERplkmSKr8GN2c3c8Txb14EZEq2hvgyQAfx6DmFZTCcm6s2+ttP3h6L0t3I8w==",
       "type": "package",
       "path": "system.xml.xmldocument/4.0.1",
       "files": [
@@ -5880,11 +5879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\Doctotest\\Clinictests.csproj",
+      "projectUniqueName": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\Doctotest\\Clinictests.csproj",
       "projectName": "Clinictests",
-      "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\Doctotest\\Clinictests.csproj",
+      "projectPath": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\Doctotest\\Clinictests.csproj",
       "packagesPath": "C:\\Users\\khani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\Doctotest\\obj\\",
+      "outputPath": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\Doctotest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5903,8 +5902,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj": {
-              "projectPath": "C:\\Users\\khani\\Desktop\\Class Projects\\New folder (2)\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj"
+            "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj": {
+              "projectPath": "C:\\Users\\khani\\Desktop\\asdasd\\University-Clinic-Hospital\\University Clinic Hospital\\University Clinic Hospital.csproj"
             }
           }
         }
