@@ -12,7 +12,6 @@ namespace University_Clinic_Hospital
             Salary = 45000;
             OnthePhone = false;
         }
-
         public override void Info()
         {
             Console.WriteLine($" \n\tReceptionist {Name} {PayStatus().ToString()}. {Name} {Avalaible().ToString()}");

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University Clinic Hospital", "University Clinic Hospital\University Clinic Hospital.csproj", "{0F9C6EEA-5382-4195-B8D8-C483DE602363}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinictests", "Doctotest\Clinictests.csproj", "{BD67D58F-AF76-429E-B624-3970A5E50F60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University Clinic Hospital.Tests", "Doctotest\University Clinic Hospital.Tests.csproj", "{BD67D58F-AF76-429E-B624-3970A5E50F60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

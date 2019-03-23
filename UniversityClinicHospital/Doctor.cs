@@ -13,10 +13,6 @@ namespace University_Clinic_Hospital
             Speciality = speciality;
             Salary = 90000;
         }
-
-     
-
-        //Employees
         public override void PaySalary()
         {
             base.PaySalary();
@@ -24,7 +20,7 @@ namespace University_Clinic_Hospital
         public override void Info()
         {
             Console.WriteLine($" \n\t {Speciality}  DR  {Name}'s ! {Name} {PayStatus()}");
-        }    //Individual INformation 
+        }   
         public override string PayStatus()    
         {
            return  base.PayStatus();

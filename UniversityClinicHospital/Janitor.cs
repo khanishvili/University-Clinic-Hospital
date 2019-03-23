@@ -11,9 +11,7 @@ namespace University_Clinic_Hospital
         {
             Sweeping = false;
             Salary = 40000;
-        }
-
-       
+        }       
         public string Sweep()
         {
             if (Sweeping)
@@ -40,7 +38,6 @@ namespace University_Clinic_Hospital
 
             }
         }
-
         public override void Info()
         {
             Console.WriteLine($" \n\t Janitor {Name} {PayStatus().ToString()} . {Sweep()}");

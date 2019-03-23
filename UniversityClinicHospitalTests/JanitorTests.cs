@@ -7,22 +7,22 @@ namespace Clinictests
   public  class JanitorTests
     {
         [Fact]
-        public void should_create_instance() //
+        public void Should_Create_Janitors_Instance_then_Return_His_Name() 
         { 
-            //
+            
             Janitor Daniel = new Janitor(12, "Daniel", false, true);
 
             Assert.Equal("Daniel",Daniel.Name);
         }
         [Fact]
-        public void should_change_sweeping_status()
+        public void Change_Sweeping_Status_For_Janitor()
         {
-            //ARRANGE
+            
             Janitor emp2 = new Janitor(12, "Daniel", false, true);
-            ////ACT
+            
             emp2.Change_status();
 
-            //ASSERT
+            
             Assert.True(emp2.Sweeping);
         }
     }

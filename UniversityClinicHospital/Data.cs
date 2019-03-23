@@ -36,7 +36,7 @@ namespace University_Clinic_Hospital
             Console.WriteLine("\t\t\t|ID|     |Name|        |Salary|    |Ispaid|    POSITION | ");
             for (int i = 0; i < Employees.Count; i++)
             {
-                //Console.WriteLine($"\t\t {Employee[i].Name}  {Employee[i].ID} {Employee[i].Ispaid} ");
+                
                 Console.WriteLine("\t\t\t {0}     {1}     {2}    {3}     {4}     {5}",
                 i.ToString().PadRight(2),
                 Employees[i].ID.ToString().PadRight(2),
@@ -46,7 +46,7 @@ namespace University_Clinic_Hospital
                  Position(i).PadRight(10)
                 );
             }
-        } //List of Employees
+        } 
         public string Position(int i)
         {
             if (Employees[i].GetType() == typeof(Doctor))
@@ -115,29 +115,28 @@ namespace University_Clinic_Hospital
                 Employees[i].Info();
             }
         }
-        public void Treat_Patients(Patient pat)
-        {
-            
-            Console.WriteLine($"you succesfully picked Patient {pat.Name}");
+        public void Treat_Patients(Patient patient)
+        {            
+            Console.WriteLine($"you succesfully picked Patient {patient.Name}");
             Print_all_Employee();
 
             Console.Write($"Please select Med ");
 
             int MED_ID = Convert.ToInt32(Console.ReadLine());
-                Employee empl= Employees[MED_ID];
-            if (empl.GetType() == typeof(Doctor))
+                Employee employee= Employees[MED_ID];
+            if (employee.GetType() == typeof(Doctor))
             {
-                Doctor bill = empl as Doctor;
-                bill.Draw_Blood(pat);
-                bill.TakingCareofPatient(pat);
-                Console.WriteLine($"{pat.Name} Increased ");
+                Doctor bill = employee as Doctor;
+                bill.Draw_Blood(patient);
+                bill.TakingCareofPatient(patient);
+                Console.WriteLine($"{patient.Name} Increased ");
             }
-            else if(empl.GetType() == typeof(Nurse))
+            else if(employee.GetType() == typeof(Nurse))
             {
-                Nurse nurs = empl as Nurse;
-                nurs.TakingCareofPatient(pat);
-                nurs.Draw_Blood(pat);
-                Console.WriteLine($"{pat.Name} Increased BLOOD LEVEL AND HEALTH TOOOO GOOD JOBB! ");
+                Nurse nurs = employee as Nurse;
+                nurs.TakingCareofPatient(patient);
+                nurs.Draw_Blood(patient);
+                Console.WriteLine($"{patient.Name} Increased BLOOD LEVEL AND HEALTH TOOOO GOOD JOBB! ");
             }
             else { Console.WriteLine("Employee with this id is not qualified to treat patients please try again! or go to sleep!!"); }
         }

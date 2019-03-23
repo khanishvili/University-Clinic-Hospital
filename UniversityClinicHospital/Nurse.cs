@@ -12,18 +12,13 @@ namespace University_Clinic_Hospital
             Salary = 50000;
             Patients = patients;
          }
-
-        
-
         public override string PayStatus()
         {
-           return  base.PayStatus();
+            return base.PayStatus();
         }
         public override void Info()
-        {
-             
+        {             
             Console.WriteLine($"\n\t Nurse  {Name} {PayStatus().ToString()}  and takes care of {Patients} patients ");
-
         }  
         public void Draw_Blood(Patient temp)
         {
@@ -33,7 +28,6 @@ namespace University_Clinic_Hospital
         {
             temp.HEALTH_LEVEL += 10;
         }
-
-        
+               
     }
 }
