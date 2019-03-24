@@ -5,16 +5,16 @@ namespace University_Clinic_Hospital
     class Program
     {
         static void Main(string[] args)
-        {
+        {  
             Data clinic = new Data();
-            Console.WriteLine("\n\n\n            Wellcome to University Clinic Hospital LLC Cleveland OHIO");
+            Console.WriteLine("\n\n\n\t\tWellcome to University Clinic Hospital LLC Cleveland OHIO");
             while (true)
             {
                 
                 bool running = true;
                 while (running)
                 {
-                   
+                    Console.WriteLine("\t\t");
                     Menu_Options();
                     string userInput = Console.ReadLine();                    
                     switch (userInput)
@@ -65,7 +65,7 @@ namespace University_Clinic_Hospital
             Console.WriteLine("\n\t\t PLEASE  SELECT FROM THE OPTIONS BELOW \n");
             Console.WriteLine("\t\tPress 1 VIEW EMPLOYEES");
             Console.WriteLine("\t\tPress 2 To View Patients");
-            Console.WriteLine("\t\tPress 3 to View Employees Current infor");
+            Console.WriteLine("\t\tPress 3 to View Employees Current info");
             Console.WriteLine("\t\tPress 4 to Treat Patients! ");
             Console.WriteLine("\t\tPress 5 to Pay all employee! ");
             Console.WriteLine("\t\tPress 6  to treat patient! ");
